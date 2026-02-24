@@ -27,7 +27,7 @@
 ## 🖼️ Anteprima Icone
 Puoi visualizzare l'elenco completo delle icone disponibili nella nostra dashboard interattiva:
 
-👉 **[Visualizza la Griglia delle Icone](https://liukhs.github.io/Icon__Library/index.html)** *(Nota: Assicurati che GitHub Pages sia attivo sulla tua repo per questo link)*
+👉 **[Visualizza la Griglia delle Icone](https://liukhs.github.io/Icon__Library/index.html)** 
 
 ![Preview delle icone](./preview-icons.png)
 
