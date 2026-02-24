@@ -39,7 +39,7 @@ Puoi visualizzare l'elenco completo delle icone disponibili nella nostra dashboa
 Per evitare blocchi di sicurezza del browser (CORS) e caricare le icone in modo asincrono, aggiungi questo script in fondo al tuo `index.php` o nel tuo file `main.js`:
 
 ```javascript
-fetch('[https://cdn.jsdelivr.net/gh/Liukhs/Icon__Library@main/mgx_icon_library.xml](https://cdn.jsdelivr.net/gh/Liukhs/Icon__Library@main/mgx_icon_library.xml)')
+fetch('https://cdn.jsdelivr.net/gh/Liukhs/Icon__Library@main/mgx_icon_library.xml')
   .then(response => response.text())
   .then(data => {
     const div = document.createElement('div');
