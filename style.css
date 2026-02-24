@@ -1,0 +1,17 @@
+.container{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 40px 20%;
+}
+.grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(10, 1fr);
+}
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

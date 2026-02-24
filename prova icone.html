@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="grid">
+        <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__museum"></use>
+            </svg>
+            <p>museum</p>
+        </div>
+        <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__utenti"></use>
+            </svg>
+            <p>utenti</p>
+        </div>
+        <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__school"></use>
+            </svg>
+            <p>school</p>
+        </div>
+        <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__arrow-up"></use>
+            </svg>
+            <p>arrow-up</p>
+        </div>
+        <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__arrow-right"></use>
+            </svg>
+            <p>arrow-right</p>
+        </div>
+        <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__arrow-down"></use>
+            </svg>
+            <p>arrow-down</p>
+        </div>
+        <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__arrow-left"></use>
+            </svg>
+            <p>arrow-left</p>
+        </div>
+        <div class="grid-item">
+            <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__building"></use>
+            </svg>
+            <p>building</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__graduation-cap"></use>
+            </svg>
+            <p>graduation-cap</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__award"></use>
+            </svg>
+            <p>award</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__search"></use>
+            </svg>
+            <p>search</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__chart-up"></use>
+            </svg>
+            <p>chart-up</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__lightbulb"></use>
+            </svg>
+            <p>lightbulb</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__hearth"></use>
+            </svg>
+            <p>bullseye</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__brain"></use>
+            </svg>
+            <p>brain</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__eye"></use>
+            </svg>
+            <p>eye</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__map-pin"></use>
+            </svg>
+            <p>map-pin</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__pen"></use>
+            </svg>
+            <p>pen</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__newspaper"></use>
+            </svg>
+            <p>newspaper</p>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-item">
+            <svg width="24" height="24" stroke="black" fill="none" stroke-width="2">
+                <use href="#mgx-icon__megaphone"></use>
+            </svg>
+            <p>megaphone</p>
+            </div>
+        </div>
+    </div>
+</div>    
+    
+    <script>
+        // Carica la libreria dal file esterno
+        fetch('mgx_icon_library.xml')
+            .then(response => response.text())
+            .then(svgContent => {
+                // Inserisci la libreria all'inizio del body
+                document.body.insertAdjacentHTML('afterbegin', svgContent);
+            })
+            .catch(error => console.error('Errore nel caricamento della libreria:', error));
+    </script>
+</body>
+</html>
