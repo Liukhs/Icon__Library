@@ -40,9 +40,7 @@ body{
     color: var(--text-muted);
     margin-bottom: 0;
 }
-svg{
-    transition: all .5s ease-in;
-}
+
 .grid-item:hover{
     transform: scale(1.02);
     border-color: var(--accent);
@@ -109,7 +107,7 @@ svg{
 .grid-item svg, 
 .grid-item p{
     opacity: 1;
-    transition: opacity .4s ease-in-out;
+    transition: opacity .4s ease-in-out, transform .5s ease-in-out;
 }
 
 .grid-item.is-loading svg, 

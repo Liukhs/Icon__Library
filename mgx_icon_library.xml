@@ -12,7 +12,7 @@
         }
     </style>
 
-    <symbol id="mgx-icon__utenti" viewBox="0 0 24 24">
+    <symbol id="mgx-icon__users" viewBox="0 0 24 24">
         <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
         <path d="M16 3.128a4 4 0 0 1 0 7.744"/>
         <path d="M22 21v-2a4 4 0 0 0-3-3.87"/>
@@ -179,5 +179,60 @@
     <symbol id="mgx-icon__twitch" viewBox="0 0 24 24">
         <path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7"/>
     </symbol>
-    <symbol id="mgx-icon__" viewBox="0 0 24 24"></symbol>
+    <symbol id="mgx-icon__zap" viewBox="0 0 24 24">
+        <path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"/>
+    </symbol>
+
+    <symbol id="mgx-icon__sparkles" viewBox="0 0 24 24">
+        <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z"/>
+        <path d="M20 2v4"/>
+        <path d="M22 4h-4"/>
+        <circle cx="4" cy="20" r="2"/>
+    </symbol>
+
+    <symbol id="mgx-icon__table-cells" viewBox="0 0 24 24">
+        <path d="M12 21v-6"/>
+        <path d="M12 9V3"/>
+        <path d="M3 15h18"/>
+        <path d="M3 9h18"/>
+        <rect width="18" height="18" x="3" y="3" rx="2"/>
+    </symbol>
+
+    <symbol id="mgx-icon__user" viewBox="0 0 24 24">
+        <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+        <circle cx="12" cy="7" r="4"/>
+    </symbol>
+
+    <symbol id="mgx-icon__circled-user" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="10"/>
+        <circle cx="12" cy="10" r="3"/>
+        <path d="M7 20.662V19a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v1.662"/>
+    </symbol>
+
+    <symbol id="mgx-icon__tag" viewBox="0 0 24 24">
+        <path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"/>
+        <circle cx="7.5" cy="7.5" r=".5" fill="currentColor"/>
+    </symbol>
+
+    <symbol id="mgx-icon__bookmark" viewBox="0 0 24 24">
+        <path d="M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z"/>
+    </symbol>
+
+    <symbol id="mgx-icon__chevron-down" viewBox="0 0 24 24">
+        <path d="m6 9 6 6 6-6"/>
+    </symbol>
+
+    <symbol id="mgx-icon__chevron-left" viewBox="0 0 24 24">
+        <path d="m15 18-6-6 6-6"/>
+    </symbol>
+
+    <symbol id="mgx-icon__chevron-right" viewBox="0 0 24 24">
+        <path d="m9 18 6-6-6-6"/>
+    </symbol>
+
+    <symbol id="mgx-icon__chevron-up" viewBox="0 0 24 24">
+        <path d="m18 15-6-6-6 6"/>
+    </symbol>
+
+    <!--<symbol id="mgx-icon__" viewBox="0 0 24 24"></symbol>-->
 </svg>
