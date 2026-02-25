@@ -2,6 +2,7 @@ window.addEventListener("DOMContentLoaded", () =>{
 
     skeletonLoading();
     costruisciPagina();
+    
 })
 
 function skeletonLoading(){
@@ -33,6 +34,7 @@ function costruisciPagina(){
 
             const div = document.createElement('div');
             div.classList.add('grid-item', 'is-loading');
+            div.dataset.name = label;
 
             div.innerHTML = `
                 <svg width="24" height="24">
@@ -42,8 +44,27 @@ function costruisciPagina(){
             `;
             container.appendChild(div);
         });
+        const searchInput = document.getElementById('iconSearch');
+
+        searchInput.addEventListener('input', (e) => {
+            filterIcons(e.target.value);
+        });
 
         skeletonLoading();
     })
     
+    function filterIcons(searchTerm){
+        const term = searchTerm.toLowerCase();
+        const items = document.querySelectorAll('.grid-item');
+
+        items.forEach(item =>{
+            const name = item.dataset.name.toLowerCase();
+
+            if(name.includes(term)){
+                item.style.display = "";
+            }else{
+                item.style.display = "none";
+            }
+        })
+    }
 }

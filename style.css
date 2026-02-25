@@ -117,3 +117,54 @@ svg{
     opacity: 0;
 }
 
+.search-container {
+    max-width: 500px;
+    margin: 20px auto 40px; 
+    padding: 0 15px;
+    position: relative;
+}
+
+#iconSearch {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #e0e0e0;
+    border-radius: 25px; 
+    outline: none;
+    transition: all 0.3s ease;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#iconSearch:focus {
+    border-color: var(--accent); /* Cambia con il tuo colore primario */
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+    transform: translateY(-2px); /* Effetto leggero di sollevamento */
+}
+.search-container:focus-within .search-icon-wrapper svg{
+    --mgx-icon-color: var(--accent);
+    transform: translateY(-2px);
+}
+
+#iconSearch::placeholder {
+    color: #aaa;
+}
+.search-icon-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%) translateX(-50%);
+    background: #0f172a; /* Il tuo colore scuro */
+    padding: 13px 20px;
+    border-radius: 25px; /* O 20px per farlo stondato */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.search-icon-wrapper svg {
+    --mgx-icon-color: white; /* Cambia il colore dell'icona se necessario */
+}
+
