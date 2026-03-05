@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
 
     <style>
-        symbol * {
+        symbol  {
             stroke: var(--mgx-icon-color, #000);
             stroke-width: var(--mgx-icon-stroke, 2);
             stroke-linecap: var(--mgx-icon-cap, round);
@@ -234,7 +234,7 @@
         <path d="m18 15-6-6-6 6"/>
     </symbol>
 
-    <symbol id="mgx-icon__server" viewBox="0 0 24 24">
+    <symbol id="mgx-icon__server" viewBox="-1 -1 29 29">
         <rect width="20" height="8" x="2" y="2" rx="2" ry="2"/>
         <rect width="20" height="8" x="2" y="14" rx="2" ry="2"/>
         <line x1="6" x2="6.01" y1="6" y2="6"/>
